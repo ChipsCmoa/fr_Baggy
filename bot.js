@@ -1,7 +1,6 @@
 const tmi = require('tmi.js');
 const fs = require('fs');
 require('dotenv').config();
-require('./src/init.js');
 
 const client = new tmi.Client({
   options: {
