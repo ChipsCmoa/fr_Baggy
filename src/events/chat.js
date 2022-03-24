@@ -3,6 +3,7 @@ const fs = require('fs');
 module.exports = {
 	name: 'chat',
 	execute(client, channel, params, txt, self) {
+		/*
 		//////////// DEBUT LOGS-CHAT
 		let timestamp;
 		if (self) timestamp = String(new Date().getTime());
@@ -12,7 +13,7 @@ module.exports = {
 			if (err) throw err;
 		});
 		//////////// FIN LOGS-CHAT
-
+		*/
 		if (self) return;
 		if (params.username === "nightbot" && txt === "Oh baggy... T'es dégueu !") client.say(channel, `Ce n'était pas moiiiii frzodBaggycry1`);
 
